@@ -1,0 +1,9 @@
+repos
+repos/*
+node_modules
+package.json
+package-lock.json
+./auto-grader-ui/node_modules
+./auto-grader-ui/.env
+./auto-grader-server/.env
+./auto-grader-ui/build

@@ -1,0 +1,30 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "command": "cd auto-grader-ui && npm start",
+            "name": "Run UI",
+            "request": "launch",
+            "type": "node-terminal"
+        },
+        {
+            "command": "nodemon --ignore repos/ --exec ./auto-grader-server/bin/www",
+            "name": "Run Server Dev",
+            "request": "launch",
+            "type": "node-terminal"
+        },
+        
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch Program",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}/auto-grader-server/routes/index.js"
+        }
+    ]
+}
