@@ -1,0 +1,6 @@
+[submodule "auto-grader-server"]
+	path = auto-grader-server
+	url = git@172.232.157.242:repos/grader-auto.git
+[submodule "auto-grader-ui"]
+	path = auto-grader-ui
+	url = git@172.232.157.242:repos/grader-ui.git
