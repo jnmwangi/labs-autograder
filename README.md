@@ -15,6 +15,7 @@ Automating running tests for students lab and posting the grade to the canvas.
 
 ### Setup
 - Fork the repo
+- Run ```git submodule init```
 - Run the following command while inside the labs-autograder directory
 ```
 cd auto-grader-server && npm install && npm start
